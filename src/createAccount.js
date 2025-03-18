@@ -152,6 +152,7 @@ const CreateAccountPage = () => {
       <br />
 
       <button onClick={createAccount}>Create Account</button>
+      <p>Note: The Password must contain at least one uppercase letter, a maximum of 8 characters, and at least one special character. </p>
     </div>
   );
 };
